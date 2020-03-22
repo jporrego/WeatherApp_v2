@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="weather-card">
+            <h1 class="weather-card__title">WeatherApp</h1>
+            <div class="unit-box">
+                <a href="#" class="unit-box__button unit-box__button--selected unit-box__button--C"
+                    onclick="chageUnitC()">C</a>
+                <a href="#" class="unit-box__button unit-box__button--F" onclick="chageUnitF()">F</a>
+            </div>
+            <span class="weather-card__message"></span>
+            <a href="#" class="btn" onclick="update()">Update</a>
+            <a href="#" class="btn">Location</a>
+        </div>
+    </div>
+
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
